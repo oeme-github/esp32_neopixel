@@ -55,6 +55,7 @@ void MyNeoPixelHandler::letSunRise()
     {
         this->deleteTimer(this->iTime);
         this->lightState->lightOn();
+        this->show();
     }
 }
 

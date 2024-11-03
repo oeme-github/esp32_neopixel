@@ -23,9 +23,9 @@ private:
     uint16_t i_maxBrightness      = 255;
 
     u_int16_t iRed   = 255;
-    u_int16_t iGreen = 20;
-    u_int16_t iBlue  = 40;
-    u_int16_t iWhite = 40;
+    u_int16_t iGreen = 80;
+    u_int16_t iBlue  = 50;
+    u_int16_t iWhite = 10;
 
     uint32_t iColor;
 
@@ -46,11 +46,14 @@ public:
 
     const char *getLightState(){return lightState->getLightState();}
 
-    void setLoopDelay(uint16_t i_LoopDelay_){ this->i_loopDealy=i_LoopDelay_;};
     uint16_t getLoopDelay(){ return this->i_loopDealy;};
+    void setLoopDelay(uint16_t value){ this->i_loopDealy=value;};
 
-    void  setMaxBrightness(uint16_t i_maxBrightness_){ this->i_maxBrightness=i_maxBrightness_;};
+    uint16_t getWakeDelayInMinutes(){ return this->i_wakeDelayInMinutes;};
+    void setWakeDelayInMinutes(uint16_t value ){ this->i_wakeDelayInMinutes=value;};
+
     uint16_t getMaxBrightness(){ return this->i_maxBrightness;};
+    void  setMaxBrightness(uint16_t value){ this->i_maxBrightness=value;};
 
     u_int16_t getIRed() const { return iRed; }
     void setIRed(u_int16_t value) { iRed = value;}

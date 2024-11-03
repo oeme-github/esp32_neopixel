@@ -22,7 +22,7 @@ private:
     uint16_t i_loopDealy          = 100;
     uint16_t i_maxBrightness      = 255;
 
-    u_int16_t iRed   = 255;
+    u_int16_t iRed   = 200;
     u_int16_t iGreen = 80;
     u_int16_t iBlue  = 50;
     u_int16_t iWhite = 10;

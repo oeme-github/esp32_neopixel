@@ -7,8 +7,6 @@
 
 #include <genericstate.h>
 #include <SimpleTimer.h>
-#include <Adafruit_NeoPixel.h>
-
 
 
 class MyNeoPixelHandler: public SimpleTimer, public Adafruit_NeoPixel

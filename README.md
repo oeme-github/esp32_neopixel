@@ -1,15 +1,12 @@
-# ESP32, NeoPixel and generic statemachine
-This statemachine (I found it myself, but can not remember were I found it, but works fine) is part of my lichtwecker.
+# ESP32, NeoPixel, WebServer amd Nextion display
 
 # Hardware
 - ESP 32 AZ Delivery DevKit v4
 - LED SK6812 RGBW (neutral)
-
-# Wireing
-- LED on 5V and ground
-- data line on PIN 27
+- Nextion display NX4832K035_011
+- MAX98357A (i2s amplifier)
 
 # Software
-- SimpleTimer
 - Adafruit_NeoPixels
-- genricstaemachine
+- arduino-audio-tools
+- arduino-libhelix
